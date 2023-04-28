@@ -1,0 +1,12 @@
+.Table {
+  & table {
+    border: 3px solid rgb(0, 0, 0);
+    & tbody {
+      & tr {
+        & td {
+          border: 2px solid green;
+        }
+      }
+    }
+  }
+}

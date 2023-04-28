@@ -1,7 +1,9 @@
+import Store from "./components/Store/Store";
+
 function App() {
   return (
     <div>
-      Hello world!!!
+      <Store/>
     </div>
   );
 }
